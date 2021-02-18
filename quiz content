@@ -1,1 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JS-quiz>
 
+<JS-quiz>
+    <title>JS Quiz</title>
+    <questions>
+        <questiion>
+            <questiontext>
+                <text>How many stripes does a tiger have?</text>
+            </questiontext>
+            <answer>2</answer>
+            <answer>6</answer>
+            <answer>11.3</answer>
+            <answer correct="y">A bunch</answer>
+        </questiion>
+
+        <question>
+            <questiontext>
+                <text>Does a tiger take naps?</text>
+            </questiontext>
+            <answer correct="y">Sometimes</answer>  
+            <answer>Rarely</answer>  
+            <answer>Only after running a lot</answer>  
+            <answer>No</answer>  
+        </question>
+
+        <question>
+            <questiontext>
+                <text>Can tigers do tricks?</text>
+            </questiontext>
+            <answer>Certainly</answer>
+            <answer>Perhaps</answer>
+            <answer>Absolutely not</answer>
+            <answer correct="y">With practice</answer>
+        </question>
+
+    </questions>
+</JS-quiz>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="tigerquiz.css">
+    <script src="tigerquiz.js"></script>
+    <title>Tiger quiz</title>
+</head>
+
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h1>Quiz MVP</h1>
+        </div>
+
+        <div class="quizlet">
+            <div class="question-header">
+                <h3 class="question" id="q1">Question number 1, what do you think?</h3>
+            </div>
+            <form action="" class="answer-block">
+                <div class="answers">
+                    <input class="answer" type="radio" name="q1a" id="q1a">
+                    <label for="q1a">Answer 1</label>
+                </div>
+                <div class="answers">
+                    <input class="answer" type="radio" name="q2a" id="q2a">
+                    <label for="q2a">Answer 2</label>
+                </div>
+                <div class="answers">
+                    <input class="answer" type="radio" name="q3a" id="q3a">
+                    <label for="q3a">Answer 3</label>
+                </div>
+                <div class="answers">
+                    <input class="answer" type="radio" name="q4a" id="q4a">
+                    <label for="q4a">Answer 4</label>
+                </div>
+            </form>
+        </div>
+        
+        <div class="response">
+            <span></span>
+            <div class="response-m">
+                <p>response to your input, correct/incorrect</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-10 ml-3">
+                <p class="stat">Questions</p>
+            </div>
+            <button class="btn button col-1">Submit</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
